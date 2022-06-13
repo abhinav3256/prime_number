@@ -10,7 +10,7 @@ func main() {
 
 	for a := 3; a <= 100; a++ {
 		flag := 0
-		for i := 2; i < 100; i++ {
+		for i := 2; i < a; i++ {
 			if a != i {
 				if a%i == 0 {
 					flag = 1
