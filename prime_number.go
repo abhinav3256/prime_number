@@ -6,7 +6,7 @@ import (
 
 func main() {
 
-	fmt.Println("test")
+	//fmt.Println("test")
 
 	for a := 3; a <= 100; a++ {
 		flag := 0
